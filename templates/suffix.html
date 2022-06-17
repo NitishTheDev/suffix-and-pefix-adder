@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suffix adder</title>
+</head>
+
+<body>
+    <h1>
+        Suffix adder
+    </h1>
+    <h2>
+        <form action="suffixadded" method="post">
+            {%csrf_token%}
+            <textarea name="sta" id="sta" cols="30" rows="10" style="height: 792px; width: 583px;"></textarea>
+            <input type="text" name="suf" id="suf">Your Suffix<br>
+            <button type="submit">
+                    Submit
+            </button>
+        </form>
+    </h2>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prefix adder</title>
+</head>
+
+<body>
+    <h1>
+        Prefix adder
+    </h1>
+    <h2>
+        <form action="prefixadded" method="post">
+            {%csrf_token%}
+            <textarea name="text" id="sta" cols="30" rows="10" style="height: 792px; width: 583px;"></textarea>
+            <input type="text" name="pre" id="pre">Your Prefix<br>
+            <button type="submit">
+                    Submit
+            </button>
+        </form>
+    </h2>
+</body>
+
+</html>
